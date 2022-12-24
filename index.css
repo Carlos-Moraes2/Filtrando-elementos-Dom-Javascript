@@ -6,7 +6,7 @@
 
 :root {
     --gray-900: #121214;
-    --gray-300: #444448;
+    --gray-300: #00000099;
 
     --primary-200: #fcd885;
     --primary-400:#ffbc48;
@@ -14,20 +14,20 @@
 }
 
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border-width: 0;
-    white-space: nowrap;
-  }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border-width: 0;
+  white-space: nowrap;
+}
   
 
 body {
-    background-color: #000707;
+    background-color: #225f7e;
     font-size: 1.6rem;
 }
 
@@ -56,10 +56,10 @@ h1 {
     padding: 1rem 1.6rem;
     border-radius: .8rem;
   
-    background-color: #444448;
+    background-color: #DCDCDC;
     border: 0;
     width: 100%;
-  color: white;
+  color: black;
 
   font-size: 1.6rem;
   }
